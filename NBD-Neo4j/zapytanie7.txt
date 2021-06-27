@@ -1,0 +1,1 @@
+MATCH (movie:Movie)-[:DIRECTED]-(person:Person), (movie)-[:WROTE]-(person) RETURN person

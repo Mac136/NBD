@@ -1,0 +1,1 @@
+MATCH paths=(airport:Airport {name: "LAX"})<-[:ORIGIN]-(flight:Flight)<-[*..3]->(airport2:Airport) UNWIND nodes(paths) AS n OPTIONAL MATCH tickets = (n)<-[:ASSIGN]-(:Ticket) WITH [paths, tickets] as flights RETURN flights

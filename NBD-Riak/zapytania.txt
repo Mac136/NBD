@@ -1,0 +1,70 @@
+﻿1.1
+curl -XPUT -i -H "ContentType: application/json" -d '{                                                              
+“id”: 1,
+“processorName”: “AMD Ryzen 7 3700X”,
+“cores”: 8,
+“frequency”: 4.4
+}' http://127.0.0.1:8098/buckets/s15602/keys/1 >> zapytania1_1.txt
+1.2
+curl -XPUT -i -H "ContentType: application/json" -d '{
+	“id”: 2,
+	“processorName”: “Intel Core i9-10850K”,
+	“cores”: 10,
+	“frequency”: 3.6
+}' http://127.0.0.1:8098/buckets/s15602/keys/2 >> zapytania1_2.txt
+1.3
+curl -XPUT -i -H "ContentType: application/json" -d '{
+	“id”: 3,
+	“processorName”: “AMD Ryzen 5 5600X”,
+	“cores”: 6,
+	“frequency”: 3.7
+}' http://127.0.0.1:8098/buckets/s15602/keys/3 >> zapytania1_3.txt
+1.4
+curl -XPUT -i -H "ContentType: application/json" -d '{
+	“id”: 4,
+	“processorName”: “Intel Core i5-11600K”,
+	“cores”: 6,
+	“frequency”: 4.9
+}' http://127.0.0.1:8098/buckets/s15602/keys/4 >> zapytania1_4.txt
+1.5
+curl -XPUT -i -H "ContentType: application/json" -d '{
+	“id”: 5,
+	“processorName”: “Intel Core i3-10100”,
+	“cores”: 4,
+	“frequency”: 3.6
+}' http://127.0.0.1:8098/buckets/s15602/keys/5 >> zapytania1_5.txt
+2
+curl -XGET -i -H "ContentType: application/json" http://127.0.0.1:8098/buckets/s15602/keys/1 >> zapytania2.txt
+3
+curl -XPUT -i -H "ContentType: application/json" -d '{                                                              
+“id”: 1,
+“processorName”: “AMD Ryzen 7 3700X”,
+“cores”: 8,
+“frequency”: 4.4,
+“cache”: “36mb”
+}' http://127.0.0.1:8098/buckets/s15602/keys/1 >> zapytania1_1.txt
+4
+curl -XPUT -i -H "ContentType: application/json" -d '{
+	“id”: 2,
+	“processorName”: “Intel Core i9-10850K”,
+	“cores”: 10,
+}' http://127.0.0.1:8098/buckets/s15602/keys/2 >> zapytania4.txt
+5
+curl -XPUT -i -H "ContentType: application/json" -d '{
+	“id”: 3,
+	“processorName”: “AMD Ryzen 5 5600X”,
+	“cores”: 6,
+	“frequency”: 3.8
+}' http://127.0.0.1:8098/buckets/s15602/keys/3 >> zapytania5.txt
+6
+curl -XDELETE -i -H "ContentType: application/json" http://127.0.0.1:8098/buckets/s15602/keys/4 >> zapytania6.txt
+7
+curl -XGET -i -H "ContentType: application/json" http://127.0.0.1:8098/buckets/s15602/keys/4 >> zapytania7.txt
+8
+curl -XPOST -i -H "ContentType: application/json" -d '{
+	“processorName”: “Intel Core i5-10600KF”,
+}' http://127.0.0.1:8098/buckets/s15602/keys/ >> zapytania8_1.txt
+9
+curl -XGET -i -H "ContentType: application/json" http://127.0.0.1:8098/buckets/s15602/keys/1v2PK1lmUjc2QUVpP3BsCTq8tAo > zapytania9.txt
+10
+curl -XDELETE -i -H "ContentType: application/json" http://127.0.0.1:8098/buckets/s15602/keys/1v2PK1lmUjc2QUVpP3BsCTq8tAo > zapytania10.txt

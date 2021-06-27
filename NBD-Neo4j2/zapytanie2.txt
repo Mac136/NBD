@@ -1,0 +1,1 @@
+MATCH (darjeeling:town {name:"Darjeeling"}), (sandakphu:peak {name:"Sandakphu"}) WITH darjeeling,sandakphu MATCH path = allShortestPaths((darjeeling)-[*]-(sandakphu)) WHERE ALL(r IN relationships(path) WHERE r.winter="true") RETURN path

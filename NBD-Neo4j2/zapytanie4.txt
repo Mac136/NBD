@@ -1,0 +1,1 @@
+MATCH paths=(flight:Flight)-[origin:ORIGIN]->(airport:Airport) RETURN airport,count(airport) ORDER BY count(airport)

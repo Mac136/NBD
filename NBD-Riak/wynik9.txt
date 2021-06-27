@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fu5cbVjOwKAumMGUyJjHyiB+xucWXxYA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s15602>; rel="up"
+Last-Modified: Sun, 27 Jun 2021 10:16:55 GMT
+ETag: "15FTcC2ZXEJISrCUXGuT1U"
+Date: Sun, 27 Jun 2021 10:27:15 GMT
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 53
+
+{
+“processorName”: “Intel Core i5-10600KF”,
+}

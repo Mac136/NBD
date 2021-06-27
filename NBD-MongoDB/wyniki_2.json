@@ -1,0 +1,50 @@
+MongoDB shell version v4.4.5
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("b19cee05-6260-4367-9c1b-9abd8606a1dd") }
+MongoDB server version: 4.4.5
+{
+	"_id" : ObjectId("6097b5a4f16ff21bb7acb9a1"),
+	"sex" : "Female",
+	"first_name" : "Pamela",
+	"last_name" : "Lopez",
+	"job" : "Tax Accountant",
+	"email" : "plopezn@sbwire.com",
+	"location" : {
+		"city" : "Danyang",
+		"address" : {
+			"streetname" : "Sutherland",
+			"streetnumber" : "9335"
+		}
+	},
+	"description" : "nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc",
+	"height" : "164.68",
+	"weight" : "63.46",
+	"birth_date" : "1957-05-12T12:17:57Z",
+	"nationality" : "China",
+	"credit" : [
+		{
+			"type" : "diners-club-carte-blanche",
+			"number" : "67064004719873501",
+			"currency" : "XOF",
+			"balance" : "4338.62"
+		},
+		{
+			"type" : "jcb",
+			"number" : "502004645577749859",
+			"currency" : "TJS",
+			"balance" : "4899.58"
+		},
+		{
+			"type" : "visa",
+			"number" : "5602243817535120",
+			"currency" : "CNY",
+			"balance" : "5582.41"
+		},
+		{
+			"type" : "jcb",
+			"number" : "3570167767040802",
+			"currency" : "PHP",
+			"balance" : "4841.85"
+		}
+	]
+}

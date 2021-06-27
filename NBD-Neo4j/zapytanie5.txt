@@ -1,0 +1,1 @@
+MATCH (:Movie {title: "The Matrix"})-[ACTED_IN]-(person:Person)-[other:ACTED_IN]-(movie:Movie) RETURN movie

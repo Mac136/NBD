@@ -1,0 +1,1 @@
+MATCH paths = (Darjeeling:town {name: "Darjeeling"})-[r*0..]->(Sandakphu:peak {name: "Sandakphu"}) UNWIND r as rels RETURN paths, sum(rels.distance) ORDER BY sum(rels.distance)

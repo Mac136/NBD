@@ -1,0 +1,1 @@
+MATCH (person:Person)-[actor:ACTED_IN]->(role) WITH person,count(actor) as roles WHERE roles > 0 RETURN person

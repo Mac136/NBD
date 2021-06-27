@@ -1,0 +1,1 @@
+MATCH (:Person {name: "Hugo Weaving"})-[:ACTED_IN]-(movie:Movie), (:Person {name: "Keanu Reeves"})-[:ACTED_IN]-(movie) RETURN movie

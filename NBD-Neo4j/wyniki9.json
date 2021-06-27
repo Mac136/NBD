@@ -1,0 +1,123 @@
+﻿[
+  {
+    "movie": {
+"identity": 18,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Captain America: The First Avenger"
+      }
+    },
+    "person": {
+"identity": 23,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Stephen McFeely"
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 18,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Captain America: The First Avenger"
+      }
+    },
+    "person": {
+"identity": 22,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Christopher Markus"
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 18,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Captain America: The First Avenger"
+      }
+    },
+    "person": {
+"identity": 21,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Joe Johnston"
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 18,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Captain America: The First Avenger"
+      }
+    },
+    "person": {
+"identity": 20,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Samuel L. Jackson"
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 18,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Captain America: The First Avenger"
+      }
+    },
+    "person": {
+"identity": 193,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 18,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"title": "Captain America: The First Avenger"
+      }
+    },
+    "person": {
+"identity": 19,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Chris Evans"
+      }
+    }
+  }
+]
